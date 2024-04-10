@@ -31,5 +31,5 @@ The plugin provides the following commands to search the Dickinson College direc
 This is protected under the MIT License. Please refer to the license in the repository root
 
 # Contributing
-Please make any pull requests or issues to suggest or implement changes. This is still in testing so expect breaking changes. You can also email me at chermsit@dickinson.edu or on Discord: WarpWing#3866
+Please make any pull requests or issues to suggest or implement changes. This is still in testing so expect breaking changes. You can also email me at chermsit@dickinson.edu or on Discord: WarpWing#3866 for discussion.
 
