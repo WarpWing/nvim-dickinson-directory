@@ -12,7 +12,7 @@ So I'm technically cheating by providing a Lua wrapper for my Python CLI. It'll 
 ```bash
 git clone https://github.com/WarpWing/nvim-dickinson-directory.git
 ```
-Then you should install the requirements.
+Then you should install the requirements:
 ```bash
 pip3 install -r dickinson_directory/requirements.txt
 ```
