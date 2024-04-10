@@ -1,7 +1,6 @@
 import os
 import requests
 import sys
-import argparse
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
@@ -126,35 +125,4 @@ def print_records(records):
         print("Email:", f"{result['EMAIL']}@dickinson.edu")
         print("---")
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Search for a person in the Dickinson College directory.')
-    parser.add_argument('-name', type=str, help='Full name of the person (e.g., "First Last")')
-    parser.add_argument('-email', type=str, help='Email address of the person')
-    parser.add_argument('-dep', type=str, help='Department of the person (e.g., "Computer Science")')
-    args = parser.parse_args()
 
-    if args.name:
-        first_name, last_name = args.name.split(' ', 1)
-        email = None
-        department = None
-    elif args.email:
-        first_name = None
-        last_name = None
-        email = args.email
-        department = None
-    elif args.dep:
-        first_name = None
-        last_name = None
-        email = None
-        department = args.dep
-    else:
-        parser.print_help()
-        sys.exit(1)
-
-    results = find_record(first_name=first_name, last_name=last_name, email=email, department=department)
-
-    if results:
-        print("Search Results:")
-        print_records(results)
-    else:
-        print("No matching records found.")
