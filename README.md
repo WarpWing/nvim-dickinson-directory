@@ -22,9 +22,11 @@ set runtimepath+=~/path/to/dickinson_directory
 
 # Usage
 The plugin provides the following commands to search the Dickinson College directory:
- - :dickdirname "First Last" - Search by name (replace "First Last" with the actual name)
- - :dickdiremail "email@dickinson.edu" - Search by email (replace "email@dickinson.edu" with the actual email)
- - :dickdirdept "Department Name" - Search by department (replace "Department Name" with the actual department name)
+```apache
+ :dickdirname "First Last" - Search by name (replace "First Last" with the actual name)
+ :dickdiremail "email@dickinson.edu" - Search by email (replace "email@dickinson.edu" with the actual email)
+ :dickdirdept "Department Name" - Search by department (replace "Department Name" with the actual department name)
+```
 
 # LICENSE
 This is protected under the MIT License. Please refer to the license in the repository root
