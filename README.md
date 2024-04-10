@@ -6,7 +6,7 @@ A Neovim Plugin that utilizes the Dickinson College Campus Directory for easy se
 
 # Install
 
-So I'm technically cheating by providing a Lua wrapper for my Python CLI. It'll be real lua... eventually. For now, this works ad hoc. First, you should clone the repository:
+First, you should clone the repository:
 
 ```bash
 git clone https://github.com/WarpWing/nvim-dickinson-directory.git
@@ -15,7 +15,7 @@ Then you should install the requirements:
 ```bash
 pip3 install -r dickinson_directory/requirements.txt
 ```
-Proceed to install the plugin in your Neovim plugins directory and update your neovim config (usually init.vim). You should be able to just set your runtime path such as:
+Proceed to install the plugin in your Neovim plugins directory and update your neovim config (usually init.vim). Just drop the `dickinson_directory` folder in your plugins folder (not repo root, the folder inside it) or just set your runtimepath:
 ```vim
 set runtimepath+=~/path/to/dickinson_directory
 ```
