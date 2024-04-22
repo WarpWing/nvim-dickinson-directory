@@ -11,11 +11,12 @@ First, you should clone the repository:
 ```bash
 git clone https://github.com/WarpWing/nvim-dickinson-directory.git
 ```
-Then you should install the requirements:
+I'm not sure how Neovim handles plugin dependency but if you need to install it, you can do so:
 ```bash
 luarocks install lua-requests
 ```
 Proceed to install the plugin in your Neovim plugins directory and update your neovim config (usually init.vim). Just drop the `dickinson_directory` folder in your plugins folder (not repo root, the folder inside it) or just set your runtimepath:
+
 ```vim
 set runtimepath+=~/path/to/dickinson_directory
 ```
